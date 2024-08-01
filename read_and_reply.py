@@ -2,13 +2,13 @@ import serial
 import time
 from collections import defaultdict
 
-# Replace '/dev/ttyS0' with the correct serial port for your Raspberry Pi
+# Replace '/dev/ttyS0' with the correct serial port for your Raspberry Pi to hat communication
 ser = serial.Serial('/dev/ttyS0', baudrate=115200, timeout=1)
 
 def send_at_command(command, delay=2):
     ser.write((command + '\r').encode())
-    time.sleep(delay) 
-    response = ser.read(ser.inWaiting()).decode() 
+    time.sleep(delay)
+    response = ser.read(ser.inWaiting()).decode()
     return response
 
 def aggregate_messages():
