@@ -2,7 +2,7 @@ import serial
 import time
 
 # Replace '/dev/ttyS0' with the correct serial port for your Raspberry Pi to hat communication.
-ser = serial.Serial('/dev/ttyS0', baudrate=9600, timeout=1)
+ser = serial.Serial('/dev/ttyS0', baudrate=115200, timeout=1)
 
 def send_at_command(command, sleep=1):
     ser.write((command + '\r').encode())
