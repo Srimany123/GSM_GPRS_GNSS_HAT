@@ -6,4 +6,4 @@ sudo apt-get install ppp minicom
 sudo apt-get update
 sudo apt-get install minicom
 
-sudo minicom -D /dev/ttyS0 -b 115200
+
