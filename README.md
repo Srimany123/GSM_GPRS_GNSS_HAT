@@ -7,11 +7,11 @@ T-Mobile: internet</br>
 Verizon: vzwinternet</br>
 MINT Mobile: wholesale</br>
 <div>
-  install nessary libraries first and update few permissions.
+  install nessary libraries first and update few permissions.</div></br>
   <pre>sudo bash start.sh</pre>
   before sending message or calling, we should check the what band the serial communication is going on.</br>
   <pre>./band_check.sh</pre>
-  this will help us to identify which band the communication is going on.
+  this will help us to identify which band the communication is going on.</br>
 </div>
 <div>
   
