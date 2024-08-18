@@ -20,7 +20,12 @@ MINT Mobile: wholesale</br>
 <div>
   now that everything as set we can start using the message and phone options</br></br>
   start by using the phone.py, this is a simple mimic of phone, like sending message, calling a number like that.</br></br>
+  <pre>python3 phone.py</pre>
+  just play with the options you will completly figure it out.</br>
+</div>
+<div>
+  now for advanced option, to store the messages and also store your replies for future use. like a smart phone does. bit confusing first. </br></br>
   <pre>python3 read_and_reply.py</pre>
-  just play with the options you will completly figure it out.
+  you might face and error, the location to store the messages does not exist also not enough permissions to make the file. in this case you have to manually create the file and give permission and also change the name of your desire file in the code.</br>
 </div>
 </p>
