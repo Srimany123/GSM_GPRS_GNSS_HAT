@@ -14,12 +14,12 @@ MINT Mobile: wholesale</br>
   this will help us to identify which band the communication is going on.</br></br>
 </div>
 <div>
-  the band i have used for communication is 115200, if you have different band, just type the below command to switch it back to 115200 through this command.</br>
+  the band i have used for communication is 115200, if you have different band, just type the below command to switch it back to 115200 through this command.</br></br>
   <pre>./switch_band.sh</pre>
 </div>
 <div>
   now that everything as set we can start using the message and phone options</br></br>
-  start by using the phone.py, this is a simple mimic of phone, like sending message, calling a number like that.</br>
+  start by using the phone.py, this is a simple mimic of phone, like sending message, calling a number like that.</br></br>
   <pre>python3 read_and_reply.py</pre>
   just play with the options you will completly figure it out.
 </div>
