@@ -9,7 +9,7 @@ MINT Mobile: wholesale</br>
 <div>
   install nessary libraries first and update few permissions.</div></br>
   <pre>sudo bash start.sh</pre>
-  before sending message or calling, we should check the what band the serial communication is going on.</br></br>
+  before sending message or calling, we should check AT commands in mincom and what band the serial communication is going on.</br></br>
   <pre>./band_check.sh</pre>
   this will help us to identify which band the communication is going on.</br></br>
 </div>
@@ -29,3 +29,6 @@ MINT Mobile: wholesale</br>
   you might face and error, the location to store the messages does not exist also not enough permissions to make the file. in this case you have to manually create the file and give permission and also change the name of your desire file in the code.</br>
 </div>
 </p>
+<h3>CMOS check</h3>
+<p>if the is a cmos battery which is connected to the host you can use this command to identify the details of cmos</p></br>
+<pre>./cmos_identify.sh</pre>
